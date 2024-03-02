@@ -1,0 +1,13 @@
+{
+    "name": "Jay Shin Blocker",
+    "version": "1.0",
+    "description": "Blocks specified websites",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker":"background.js"
+    },
+    "permissions": ["declarativeNetRequest", "activeTab"]
+  }
